@@ -29,10 +29,10 @@ int sys_getpid(void) {
   return proc->pid;
 }
 
-// part A sys call function
+// FirstPart sys call function
 int sys_FirstPart(void) { return counterA; }
 
-// part B sys call function
+// SecondPart sys call function
 int sys_SecondPart(void) { return counterB; }
 
 int sys_sbrk(void) {
